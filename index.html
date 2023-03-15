@@ -20,11 +20,11 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__nav__item"><a class="header__nav__item__link" href="#news">News</a></li>
-          <li class="header__nav__item"><a class="header__nav__item__link" href="">About</a></li>
-          <li class="header__nav__item"><a class="header__nav__item__link" href="">Service</a></li>
-          <li class="header__nav__item"><a class="header__nav__item__link" href="">Blog</a></li>
-          <li class="header__nav__item"><a class="header__nav__item__link" href="">Company</a></li>
-          <li class="header__nav__item"><a class="header__nav__item__link" href="">Contact</a></li>
+          <li class="header__nav__item"><a class="header__nav__item__link" href="#about">About</a></li>
+          <li class="header__nav__item"><a class="header__nav__item__link" href="#savice">Service</a></li>
+          <li class="header__nav__item"><a class="header__nav__item__link" href="#blog">Blog</a></li>
+          <li class="header__nav__item"><a class="header__nav__item__link" href="#company">Company</a></li>
+          <li class="header__nav__item"><a class="header__nav__item__link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -32,13 +32,13 @@
       <div class="header__main__img">
         <img src="img/firstview.jpg" alt="firstview">
       </div>
-      <p class="header__bottom__text__3">
+      <p class="header__bottom__text">
         Commit to the <span>growth</span><br>for everyone
       </p>
-      <strong class="header__bottom__text">
+      <strong class="header__bottom__text-2">
         全ての人の<span>成長</span>にコミットする
       </strong>
-      <p class="header__bottom__text__2">Educational Technology Company <br>estra inc since 2019</p>
+      <p class="header__bottom__text__3">Educational Technology Company <br>estra inc since 2019</p>
     </div>
   </header>
   <!--=================================================================-->
@@ -85,7 +85,9 @@
       <hr>
     </div>
   </article>
-  <section class="client__benefic">
+  <!-- ========================================================= -->
+  <!-- about -->
+  <section class="about" id="about">
     <div class="about__all__containar">
       <h2 class="about__title__en">About</h2>
       <h2 class="about__title">Technology x Coaching</h2>
@@ -100,7 +102,9 @@
       </div>
     </div>
   </section>
-  <main>
+  <!-- =========================================================== -->
+  <!-- savice -->
+  <main class="savice" id="savice">
     <div class="service__containar">
       <h2 class="servis__title__en">Service</h2>
       <h2 class="servis__title">サービス内容</h2>
@@ -141,7 +145,9 @@
       </div>
     </div>
   </main>
-  <article class="blog">
+  <!-- ====================================================== -->
+  <!-- blog -->
+  <article class="blog"  id="blog">
     <div class="blog__container">
       <h2 class="blog__title-en">Blog</h2>
       <h2 class="blog__title">ブログ</h2>
@@ -151,7 +157,7 @@
           <div class="blog__card__top">
             <div class="blog__card__ctg">Blog</div>
             <div class="blog__img">
-              <img src="img/blog__first.jpg" alt="blog" width="300" height="200">
+              <img src="img/blog__first.jpg" alt="blog" >
             </div>
           </div>
           <div class="card__bottom">
@@ -166,7 +172,7 @@
           <div class="blog__card__top">
             <div class="blog__card__ctg">Blog</div>
             <div class="blog__img">
-              <img src="img/blog__first.jpg" alt="blog" width="300" height="200">
+              <img src="img/blog__first.jpg" alt="blog" >
             </div>
           </div>
           <div class="card__bottom">
@@ -181,7 +187,7 @@
           <div class="blog__card__top">
             <div class="blog__card__ctg">Blog</div>
             <div class="blog__img">
-              <img src="img/blog__first.jpg" alt="blog" width="300" height="200">
+              <img src="img/blog__first.jpg" alt="blog" >
             </div>
           </div>
           <div class="card__bottom">
@@ -196,62 +202,69 @@
       <div class="blog__btn">一覧ページへ</div>
     </div>
   </article>
-  <section class="Profile">
+  <!-- ========================================================== -->
+  <!-- profile -->
+  <section class="Profile" id="company">
     <div class="Profile__container">
       <h2 class="Profile__heading-en">Company</h2>
       <h2 class="Profile__heading">会社概要</h2>
-      <table border="1" class="Profile__tbr">
-        <tr>
-          <th>会社名</th>
-          <td>株式会社estra</td>
+      <table class="Profile__tbr">
+        <tr class="Profile__tr">
+          <th class="Profile__th">会社名</th>
+          <td class="Profile__td">株式会社estra</td>
         </tr>
-        <tr>
-          <th>代表者名</th>
-          <td>福場凛太郎</td>
+        <tr class="Profile__tr">
+          <th class="Profile__th">代表者名</th>
+          <td class="Profile__td">福場凛太郎</td>
         </tr>
-        <tr>
-          <th>本社所在地</th>
-          <td>東京都渋谷区1-1-1</td>
+        <tr class="Profile__tr">
+          <th class="Profile__th">本社所在地</th>
+          <td class="Profile__td">東京都渋谷区1-1-1</td>
         </tr>
-        <tr>
-          <th>従業員数</th>
-          <td>100名</td>
+        <tr class="Profile__tr">
+          <th class="Profile__th">従業員数</th>
+          <td class="Profile__td">100名</td>
         </tr>
-        <tr>
-          <th>電話番号</th>
-          <td>0120-00-0000</td>
+        <tr class="Profile__tr">
+          <th class="Profile__th">電話番号</th>
+          <td class="Profile__td">0120-00-0000</td>
         </tr>
-        <tr>
-          <th>資本金</th>
-          <td>¥10,000,000</td>
+        <tr class="Profile__tr">
+          <th class="Profile__th">資本金</th>
+          <td class="Profile__td">¥10,000,000</td>
         </tr>
       </table>
     </div>
-
   </section>
-  <section class="inquiry__info">
+  <!-- ======================================================================= -->
+  <!-- Contact -->
+  <section class="inquiry__info" id="contact">
     <div class="inquiry__container">
       <div class="inquiry__container-left">
         <h2 class="inquiry__title-left">採用情報</h2>
         <div class="inquiry__img-left">
-          <img src="img/recruit.png" alt="recruit" width="100%" height="300px" />
+          <img src="img/recruit.png" alt="recruit" />
         </div>
       </div>
       <div class="inquiry__container-right">
         <h2 class="inquiry__title-right">社員インタビュー</h2>
         <div class="inquiry__img-right">
-          <img src="img/interview.png" alt="recruit" width="100%" height="300px" />
+          <img src="img/interview.png" alt="recruit" />
         </div>
       </div>
     </div>
-
-
-    <p class="inquiry__text">株式会社estraへのお問い合わせはこちらから</p>
-    <hr width="50">
-    <div class="inquiry__info-botn">お問い合わせ</div>
-
+    <div class="inquiry__container-bottom">
+      <p class="inquiry__text">株式会社estraへのお問い合わせはこちらから</p>
+      <div class="inquiry-border"></div>
+      <div class="inquiry__info-btn">
+        <div class="inquiry__btn-img">
+          <img src="img/mailicon.svg">
+        </div>
+        <p class="initial__btn-text">お問い合わせ</p>
+      </div>
+    </div>
   </section>
-  <footer clsss="footer">
+  <footer class="footer">
     <small>Copyright &copy; estra.inc All Rights Reserved.</small>
   </footer>
 </body>
